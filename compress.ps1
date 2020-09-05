@@ -34,7 +34,7 @@ foreach($inputFile in Get-ChildItem -Path $sourceFolder -Filter *.mov -Recurse)
   
   Write-Host -NoNewline "Working on $outputFileName... ";
   Start-Process $processName $processArgs -wait;
-  Move-Item $inputFile $doneFilePath
+  Move-Item $inputFile.FullName $doneFilePath
   Write-Output "Done";
 }
 
