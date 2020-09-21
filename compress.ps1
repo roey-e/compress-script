@@ -3,7 +3,7 @@ $vcodec = "h265";
 $scale = 0.33;
 $mux = 'mp4';
 
-$dateFormat = "yyyy.MM.dd-HH.mm";
+$dateFormat = "yyyy.MM.dd-HH.mm.ss";
 $folderDateFormat = "yyyy.MM";
 
 $sourceFolder = ".\sdcard"
